@@ -1,0 +1,479 @@
+[
+  {
+    "customer_id": "CUST_000001",
+    "first_name": "User_1",
+    "last_name": "Test_1",
+    "email": "user1@example.com",
+    "country_code": "US",
+    "status": "ACTIVE",
+    "created_at": "2026-08-14T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000002",
+    "first_name": "User_2",
+    "last_name": "Test_2",
+    "email": "user2@example.com",
+    "country_code": "DE",
+    "status": "ACTIVE",
+    "created_at": "2026-05-23T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000003",
+    "first_name": "User_3",
+    "last_name": "Test_3",
+    "email": "user3@example.com",
+    "country_code": "GB",
+    "status": "ACTIVE",
+    "created_at": "2026-06-18T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000004",
+    "first_name": "User_4",
+    "last_name": "Test_4",
+    "email": "user4@example.com",
+    "country_code": "CA",
+    "status": "ACTIVE",
+    "created_at": "2026-08-19T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000005",
+    "first_name": "User_5",
+    "last_name": "Test_5",
+    "email": "user5@example.com",
+    "country_code": "US",
+    "status": "ACTIVE",
+    "created_at": "2026-03-08T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000006",
+    "first_name": "User_6",
+    "last_name": "Test_6",
+    "email": "user6@example.com",
+    "country_code": "CA",
+    "status": "ACTIVE",
+    "created_at": "2026-09-25T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000007",
+    "first_name": "User_7",
+    "last_name": "Test_7",
+    "email": "user7@example.com",
+    "country_code": "DE",
+    "status": "ACTIVE",
+    "created_at": "2026-06-21T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000008",
+    "first_name": "User_8",
+    "last_name": "Test_8",
+    "email": "user8@example.com",
+    "country_code": "US",
+    "status": "ACTIVE",
+    "created_at": "2026-01-25T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000009",
+    "first_name": "User_9",
+    "last_name": "Test_9",
+    "email": "user9@example.com",
+    "country_code": "DE",
+    "status": "ACTIVE",
+    "created_at": "2025-12-27T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000010",
+    "first_name": "User_10",
+    "last_name": "Test_10",
+    "email": "user10@example.com",
+    "country_code": "JP",
+    "status": "ACTIVE",
+    "created_at": "2026-01-04T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000011",
+    "first_name": "User_11",
+    "last_name": "Test_11",
+    "email": "user11@example.com",
+    "country_code": "AU",
+    "status": "ACTIVE",
+    "created_at": "2026-06-20T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000012",
+    "first_name": "User_12",
+    "last_name": "Test_12",
+    "email": "user12@example.com",
+    "country_code": "US",
+    "status": "ACTIVE",
+    "created_at": "2026-05-21T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000013",
+    "first_name": "User_13",
+    "last_name": "Test_13",
+    "email": "user13@example.com",
+    "country_code": "JP",
+    "status": "ACTIVE",
+    "created_at": "2026-07-21T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000014",
+    "first_name": "User_14",
+    "last_name": "Test_14",
+    "email": "user14@example.com",
+    "country_code": "FR",
+    "status": "ACTIVE",
+    "created_at": "2026-04-19T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000015",
+    "first_name": "User_15",
+    "last_name": "Test_15",
+    "email": "user15@example.com",
+    "country_code": "DE",
+    "status": "ACTIVE",
+    "created_at": "2026-07-23T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000016",
+    "first_name": "User_16",
+    "last_name": "Test_16",
+    "email": "user16@example.com",
+    "country_code": "CA",
+    "status": "ACTIVE",
+    "created_at": "2026-04-21T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000017",
+    "first_name": "User_17",
+    "last_name": "Test_17",
+    "email": "user17@example.com",
+    "country_code": "JP",
+    "status": "ACTIVE",
+    "created_at": "2026-08-24T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000018",
+    "first_name": "User_18",
+    "last_name": "Test_18",
+    "email": "user18@example.com",
+    "country_code": "IN",
+    "status": "ACTIVE",
+    "created_at": "2026-08-22T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000019",
+    "first_name": "User_19",
+    "last_name": "Test_19",
+    "email": "user19@example.com",
+    "country_code": "FR",
+    "status": "ACTIVE",
+    "created_at": "2026-04-17T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000020",
+    "first_name": "User_20",
+    "last_name": "Test_20",
+    "email": "user20@example.com",
+    "country_code": "AU",
+    "status": "ACTIVE",
+    "created_at": "2026-09-18T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000021",
+    "first_name": "User_21",
+    "last_name": "Test_21",
+    "email": "user21@example.com",
+    "country_code": "CA",
+    "status": "ACTIVE",
+    "created_at": "2026-01-09T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000022",
+    "first_name": "User_22",
+    "last_name": "Test_22",
+    "email": "user22@example.com",
+    "country_code": "CA",
+    "status": "ACTIVE",
+    "created_at": "2026-03-31T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000023",
+    "first_name": "User_23",
+    "last_name": "Test_23",
+    "email": "user23@example.com",
+    "country_code": "FR",
+    "status": "ACTIVE",
+    "created_at": "2026-01-01T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000024",
+    "first_name": "User_24",
+    "last_name": "Test_24",
+    "email": "user24@example.com",
+    "country_code": "DE",
+    "status": "ACTIVE",
+    "created_at": "2026-04-08T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000025",
+    "first_name": "User_25",
+    "last_name": "Test_25",
+    "email": "user25@example.com",
+    "country_code": "US",
+    "status": "ACTIVE",
+    "created_at": "2026-09-05T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000026",
+    "first_name": "User_26",
+    "last_name": "Test_26",
+    "email": "user26@example.com",
+    "country_code": "FR",
+    "status": "ACTIVE",
+    "created_at": "2026-06-16T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000027",
+    "first_name": "User_27",
+    "last_name": "Test_27",
+    "email": "user27@example.com",
+    "country_code": "DE",
+    "status": "ACTIVE",
+    "created_at": "2026-08-31T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000028",
+    "first_name": "User_28",
+    "last_name": "Test_28",
+    "email": "user28@example.com",
+    "country_code": "JP",
+    "status": "ACTIVE",
+    "created_at": "2026-08-20T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000029",
+    "first_name": "User_29",
+    "last_name": "Test_29",
+    "email": "user29@example.com",
+    "country_code": "AU",
+    "status": "ACTIVE",
+    "created_at": "2026-05-21T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000030",
+    "first_name": "User_30",
+    "last_name": "Test_30",
+    "email": "user30@example.com",
+    "country_code": "GB",
+    "status": "ACTIVE",
+    "created_at": "2026-04-07T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000031",
+    "first_name": "User_31",
+    "last_name": "Test_31",
+    "email": "user31@example.com",
+    "country_code": "IN",
+    "status": "ACTIVE",
+    "created_at": "2026-04-04T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000032",
+    "first_name": "User_32",
+    "last_name": "Test_32",
+    "email": "user32@example.com",
+    "country_code": "FR",
+    "status": "ACTIVE",
+    "created_at": "2026-06-25T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000033",
+    "first_name": "User_33",
+    "last_name": "Test_33",
+    "email": "user33@example.com",
+    "country_code": "GB",
+    "status": "ACTIVE",
+    "created_at": "2026-09-04T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000034",
+    "first_name": "User_34",
+    "last_name": "Test_34",
+    "email": "user34@example.com",
+    "country_code": "DE",
+    "status": "ACTIVE",
+    "created_at": "2026-01-10T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000035",
+    "first_name": "User_35",
+    "last_name": "Test_35",
+    "email": "user35@example.com",
+    "country_code": "AU",
+    "status": "ACTIVE",
+    "created_at": "2026-07-19T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000036",
+    "first_name": "User_36",
+    "last_name": "Test_36",
+    "email": "user36@example.com",
+    "country_code": "FR",
+    "status": "ACTIVE",
+    "created_at": "2026-03-30T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000037",
+    "first_name": "User_37",
+    "last_name": "Test_37",
+    "email": "user37@example.com",
+    "country_code": "DE",
+    "status": "ACTIVE",
+    "created_at": "2025-12-29T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000038",
+    "first_name": "User_38",
+    "last_name": "Test_38",
+    "email": "user38@example.com",
+    "country_code": "US",
+    "status": "ACTIVE",
+    "created_at": "2026-04-27T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000039",
+    "first_name": "User_39",
+    "last_name": "Test_39",
+    "email": "user39@example.com",
+    "country_code": "US",
+    "status": "ACTIVE",
+    "created_at": "2026-06-15T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000040",
+    "first_name": "User_40",
+    "last_name": "Test_40",
+    "email": "user40@example.com",
+    "country_code": "JP",
+    "status": "ACTIVE",
+    "created_at": "2026-05-02T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000041",
+    "first_name": "User_41",
+    "last_name": "Test_41",
+    "email": "user41@example.com",
+    "country_code": "CA",
+    "status": "ACTIVE",
+    "created_at": "2026-05-26T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000042",
+    "first_name": "User_42",
+    "last_name": "Test_42",
+    "email": "user42@example.com",
+    "country_code": "IN",
+    "status": "ACTIVE",
+    "created_at": "2026-06-24T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000043",
+    "first_name": "User_43",
+    "last_name": "Test_43",
+    "email": "user43@example.com",
+    "country_code": "AU",
+    "status": "ACTIVE",
+    "created_at": "2026-06-24T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000044",
+    "first_name": "User_44",
+    "last_name": "Test_44",
+    "email": "user44@example.com",
+    "country_code": "AU",
+    "status": "ACTIVE",
+    "created_at": "2026-03-22T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000045",
+    "first_name": "User_45",
+    "last_name": "Test_45",
+    "email": "user45@example.com",
+    "country_code": "FR",
+    "status": "ACTIVE",
+    "created_at": "2026-07-29T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000046",
+    "first_name": "User_46",
+    "last_name": "Test_46",
+    "email": "user46@example.com",
+    "country_code": "DE",
+    "status": "ACTIVE",
+    "created_at": "2026-07-31T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000047",
+    "first_name": "User_47",
+    "last_name": "Test_47",
+    "email": "user47@example.com",
+    "country_code": "FR",
+    "status": "ACTIVE",
+    "created_at": "2025-12-27T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000048",
+    "first_name": "User_48",
+    "last_name": "Test_48",
+    "email": "user48@example.com",
+    "country_code": "JP",
+    "status": "ACTIVE",
+    "created_at": "2026-03-05T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000049",
+    "first_name": "User_49",
+    "last_name": "Test_49",
+    "email": "user49@example.com",
+    "country_code": "DE",
+    "status": "ACTIVE",
+    "created_at": "2026-04-08T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000050",
+    "first_name": "User_50",
+    "last_name": "Test_50",
+    "email": "user50@example.com",
+    "country_code": "AU",
+    "status": "ACTIVE",
+    "created_at": "2026-08-01T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_ERR_0001",
+    "first_name": "NoEmail",
+    "last_name": "User",
+    "email": null,
+    "country_code": "US",
+    "status": "ACTIVE",
+    "created_at": "2026-10-20T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_000001",
+    "first_name": "User_1",
+    "last_name": "Test_1",
+    "email": "duplicate_email@test.com",
+    "country_code": "US",
+    "status": "ACTIVE",
+    "created_at": "2026-08-14T10:00:00+00:00"
+  },
+  {
+    "customer_id": "CUST_ERR_STATUS",
+    "first_name": "Bad",
+    "last_name": "Status",
+    "email": "badstatus@test.com",
+    "country_code": "US",
+    "status": "BOGUS_STATUS",
+    "created_at": "2026-10-20T10:00:00+00:00"
+  }
+]

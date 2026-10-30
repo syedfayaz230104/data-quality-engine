@@ -1,0 +1,920 @@
+[
+  {
+    "order_id": "ORD_0000001",
+    "customer_id": "CUST_000007",
+    "order_date": "2026-10-11T22:00:00+00:00",
+    "status": "SHIPPED",
+    "total_amount": 1204.88,
+    "payment_method": "CREDIT_CARD",
+    "created_at": "2026-10-11T22:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000002",
+    "customer_id": "CUST_000016",
+    "order_date": "2026-09-25T04:00:00+00:00",
+    "status": "DELIVERED",
+    "total_amount": 227.47,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-09-25T04:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000003",
+    "customer_id": "CUST_000018",
+    "order_date": "2026-08-21T03:00:00+00:00",
+    "status": "PENDING",
+    "total_amount": 675.83,
+    "payment_method": "CREDIT_CARD",
+    "created_at": "2026-08-21T03:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000004",
+    "customer_id": "CUST_000004",
+    "order_date": "2026-07-27T17:00:00+00:00",
+    "status": "PENDING",
+    "total_amount": 1454.11,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-07-27T17:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000005",
+    "customer_id": "CUST_000011",
+    "order_date": "2026-08-27T19:00:00+00:00",
+    "status": "DELIVERED",
+    "total_amount": 336.35,
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-08-27T19:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000006",
+    "customer_id": "CUST_000004",
+    "order_date": "2026-09-27T22:00:00+00:00",
+    "status": "PENDING",
+    "total_amount": 1478.26,
+    "payment_method": "WIRE",
+    "created_at": "2026-09-27T22:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000007",
+    "customer_id": "CUST_000001",
+    "order_date": "2026-08-22T01:00:00+00:00",
+    "status": "DELIVERED",
+    "total_amount": 1050.96,
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-08-22T01:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000008",
+    "customer_id": "CUST_000010",
+    "order_date": "2026-09-25T01:00:00+00:00",
+    "status": "CONFIRMED",
+    "total_amount": 1453.69,
+    "payment_method": "CREDIT_CARD",
+    "created_at": "2026-09-25T01:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000009",
+    "customer_id": "CUST_000048",
+    "order_date": "2026-09-09T09:00:00+00:00",
+    "status": "PENDING",
+    "total_amount": 884.58,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-09-09T09:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000010",
+    "customer_id": "CUST_000004",
+    "order_date": "2026-08-15T08:00:00+00:00",
+    "status": "CONFIRMED",
+    "total_amount": 121.41,
+    "payment_method": "CREDIT_CARD",
+    "created_at": "2026-08-15T08:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000011",
+    "customer_id": "CUST_000044",
+    "order_date": "2026-09-18T22:00:00+00:00",
+    "status": "PENDING",
+    "total_amount": 1413.56,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-09-18T22:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000012",
+    "customer_id": "CUST_000038",
+    "order_date": "2026-08-04T09:00:00+00:00",
+    "status": "PENDING",
+    "total_amount": 640.45,
+    "payment_method": "WIRE",
+    "created_at": "2026-08-04T09:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000013",
+    "customer_id": "CUST_000017",
+    "order_date": "2026-09-22T13:00:00+00:00",
+    "status": "SHIPPED",
+    "total_amount": 373.26,
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-09-22T13:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000014",
+    "customer_id": "CUST_000009",
+    "order_date": "2026-07-25T14:00:00+00:00",
+    "status": "SHIPPED",
+    "total_amount": 696.69,
+    "payment_method": "CREDIT_CARD",
+    "created_at": "2026-07-25T14:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000015",
+    "customer_id": "CUST_000001",
+    "order_date": "2026-08-21T15:00:00+00:00",
+    "status": "PENDING",
+    "total_amount": 128.43,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-08-21T15:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000016",
+    "customer_id": "CUST_000033",
+    "order_date": "2026-09-16T06:00:00+00:00",
+    "status": "SHIPPED",
+    "total_amount": 1323.68,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-09-16T06:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000017",
+    "customer_id": "CUST_000024",
+    "order_date": "2026-09-13T05:00:00+00:00",
+    "status": "DELIVERED",
+    "total_amount": 1253.94,
+    "payment_method": "WIRE",
+    "created_at": "2026-09-13T05:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000018",
+    "customer_id": "CUST_000040",
+    "order_date": "2026-07-27T18:00:00+00:00",
+    "status": "PENDING",
+    "total_amount": 1008.44,
+    "payment_method": "WIRE",
+    "created_at": "2026-07-27T18:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000019",
+    "customer_id": "CUST_000043",
+    "order_date": "2026-10-06T06:00:00+00:00",
+    "status": "SHIPPED",
+    "total_amount": 190.83,
+    "payment_method": "CREDIT_CARD",
+    "created_at": "2026-10-06T06:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000020",
+    "customer_id": "CUST_000048",
+    "order_date": "2026-08-10T06:00:00+00:00",
+    "status": "SHIPPED",
+    "total_amount": 437.0,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-08-10T06:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000021",
+    "customer_id": "CUST_000046",
+    "order_date": "2026-09-06T04:00:00+00:00",
+    "status": "SHIPPED",
+    "total_amount": 768.01,
+    "payment_method": "WIRE",
+    "created_at": "2026-09-06T04:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000022",
+    "customer_id": "CUST_000004",
+    "order_date": "2026-10-07T14:00:00+00:00",
+    "status": "DELIVERED",
+    "total_amount": 1247.44,
+    "payment_method": "CREDIT_CARD",
+    "created_at": "2026-10-07T14:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000023",
+    "customer_id": "CUST_000001",
+    "order_date": "2026-09-07T06:00:00+00:00",
+    "status": "SHIPPED",
+    "total_amount": 259.14,
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-09-07T06:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000024",
+    "customer_id": "CUST_000036",
+    "order_date": "2026-07-20T21:00:00+00:00",
+    "status": "PENDING",
+    "total_amount": 185.57,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-07-20T21:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000025",
+    "customer_id": "CUST_000035",
+    "order_date": "2026-10-14T23:00:00+00:00",
+    "status": "CONFIRMED",
+    "total_amount": 656.08,
+    "payment_method": "CREDIT_CARD",
+    "created_at": "2026-10-14T23:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000026",
+    "customer_id": "CUST_000020",
+    "order_date": "2026-09-03T09:00:00+00:00",
+    "status": "SHIPPED",
+    "total_amount": 330.91,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-09-03T09:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000027",
+    "customer_id": "CUST_000043",
+    "order_date": "2026-10-05T23:00:00+00:00",
+    "status": "DELIVERED",
+    "total_amount": 1461.28,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-10-05T23:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000028",
+    "customer_id": "CUST_000016",
+    "order_date": "2026-09-29T05:00:00+00:00",
+    "status": "DELIVERED",
+    "total_amount": 56.68,
+    "payment_method": "WIRE",
+    "created_at": "2026-09-29T05:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000029",
+    "customer_id": "CUST_000001",
+    "order_date": "2026-08-27T13:00:00+00:00",
+    "status": "CONFIRMED",
+    "total_amount": 414.87,
+    "payment_method": "CREDIT_CARD",
+    "created_at": "2026-08-27T13:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000030",
+    "customer_id": "CUST_000025",
+    "order_date": "2026-10-14T19:00:00+00:00",
+    "status": "CONFIRMED",
+    "total_amount": 315.37,
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-10-14T19:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000031",
+    "customer_id": "CUST_000023",
+    "order_date": "2026-09-10T03:00:00+00:00",
+    "status": "CONFIRMED",
+    "total_amount": 55.02,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-09-10T03:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000032",
+    "customer_id": "CUST_000026",
+    "order_date": "2026-09-07T02:00:00+00:00",
+    "status": "PENDING",
+    "total_amount": 1451.0,
+    "payment_method": "WIRE",
+    "created_at": "2026-09-07T02:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000033",
+    "customer_id": "CUST_000023",
+    "order_date": "2026-07-28T18:00:00+00:00",
+    "status": "DELIVERED",
+    "total_amount": 1025.69,
+    "payment_method": "WIRE",
+    "created_at": "2026-07-28T18:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000034",
+    "customer_id": "CUST_000002",
+    "order_date": "2026-10-05T02:00:00+00:00",
+    "status": "CONFIRMED",
+    "total_amount": 879.27,
+    "payment_method": "WIRE",
+    "created_at": "2026-10-05T02:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000035",
+    "customer_id": "CUST_000003",
+    "order_date": "2026-10-05T15:00:00+00:00",
+    "status": "DELIVERED",
+    "total_amount": 531.62,
+    "payment_method": "WIRE",
+    "created_at": "2026-10-05T15:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000036",
+    "customer_id": "CUST_000028",
+    "order_date": "2026-08-02T18:00:00+00:00",
+    "status": "PENDING",
+    "total_amount": 590.09,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-08-02T18:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000037",
+    "customer_id": "CUST_000017",
+    "order_date": "2026-10-13T12:00:00+00:00",
+    "status": "DELIVERED",
+    "total_amount": 22.5,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-10-13T12:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000038",
+    "customer_id": "CUST_000024",
+    "order_date": "2026-08-25T08:00:00+00:00",
+    "status": "SHIPPED",
+    "total_amount": 942.27,
+    "payment_method": "CREDIT_CARD",
+    "created_at": "2026-08-25T08:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000039",
+    "customer_id": "CUST_000047",
+    "order_date": "2026-09-10T18:00:00+00:00",
+    "status": "SHIPPED",
+    "total_amount": 1007.0,
+    "payment_method": "WIRE",
+    "created_at": "2026-09-10T18:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000040",
+    "customer_id": "CUST_000026",
+    "order_date": "2026-07-22T01:00:00+00:00",
+    "status": "CONFIRMED",
+    "total_amount": 303.92,
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-07-22T01:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000041",
+    "customer_id": "CUST_000044",
+    "order_date": "2026-07-16T05:00:00+00:00",
+    "status": "SHIPPED",
+    "total_amount": 620.99,
+    "payment_method": "CREDIT_CARD",
+    "created_at": "2026-07-16T05:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000042",
+    "customer_id": "CUST_000020",
+    "order_date": "2026-09-13T04:00:00+00:00",
+    "status": "DELIVERED",
+    "total_amount": 1182.92,
+    "payment_method": "WIRE",
+    "created_at": "2026-09-13T04:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000043",
+    "customer_id": "CUST_000030",
+    "order_date": "2026-08-23T20:00:00+00:00",
+    "status": "CONFIRMED",
+    "total_amount": 776.54,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-08-23T20:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000044",
+    "customer_id": "CUST_000043",
+    "order_date": "2026-10-09T01:00:00+00:00",
+    "status": "SHIPPED",
+    "total_amount": 158.21,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-10-09T01:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000045",
+    "customer_id": "CUST_000044",
+    "order_date": "2026-09-10T03:00:00+00:00",
+    "status": "CONFIRMED",
+    "total_amount": 238.08,
+    "payment_method": "CREDIT_CARD",
+    "created_at": "2026-09-10T03:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000046",
+    "customer_id": "CUST_000016",
+    "order_date": "2026-08-19T15:00:00+00:00",
+    "status": "PENDING",
+    "total_amount": 694.02,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-08-19T15:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000047",
+    "customer_id": "CUST_000046",
+    "order_date": "2026-07-21T22:00:00+00:00",
+    "status": "DELIVERED",
+    "total_amount": 611.49,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-07-21T22:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000048",
+    "customer_id": "CUST_000042",
+    "order_date": "2026-07-23T10:00:00+00:00",
+    "status": "PENDING",
+    "total_amount": 1172.06,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-07-23T10:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000049",
+    "customer_id": "CUST_000012",
+    "order_date": "2026-07-21T18:00:00+00:00",
+    "status": "DELIVERED",
+    "total_amount": 94.32,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-07-21T18:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000050",
+    "customer_id": "CUST_000008",
+    "order_date": "2026-08-22T06:00:00+00:00",
+    "status": "DELIVERED",
+    "total_amount": 1008.02,
+    "payment_method": "WIRE",
+    "created_at": "2026-08-22T06:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000051",
+    "customer_id": "CUST_000049",
+    "order_date": "2026-08-23T15:00:00+00:00",
+    "status": "DELIVERED",
+    "total_amount": 1249.24,
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-08-23T15:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000052",
+    "customer_id": "CUST_000011",
+    "order_date": "2026-07-15T19:00:00+00:00",
+    "status": "DELIVERED",
+    "total_amount": 403.6,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-07-15T19:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000053",
+    "customer_id": "CUST_000041",
+    "order_date": "2026-09-13T18:00:00+00:00",
+    "status": "DELIVERED",
+    "total_amount": 947.59,
+    "payment_method": "WIRE",
+    "created_at": "2026-09-13T18:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000054",
+    "customer_id": "CUST_000029",
+    "order_date": "2026-10-09T12:00:00+00:00",
+    "status": "SHIPPED",
+    "total_amount": 367.05,
+    "payment_method": "WIRE",
+    "created_at": "2026-10-09T12:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000055",
+    "customer_id": "CUST_000021",
+    "order_date": "2026-08-11T08:00:00+00:00",
+    "status": "CONFIRMED",
+    "total_amount": 243.23,
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-08-11T08:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000056",
+    "customer_id": "CUST_000045",
+    "order_date": "2026-09-29T12:00:00+00:00",
+    "status": "CONFIRMED",
+    "total_amount": 115.06,
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-09-29T12:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000057",
+    "customer_id": "CUST_000022",
+    "order_date": "2026-08-10T20:00:00+00:00",
+    "status": "DELIVERED",
+    "total_amount": 112.15,
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-08-10T20:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000058",
+    "customer_id": "CUST_000025",
+    "order_date": "2026-07-12T16:00:00+00:00",
+    "status": "PENDING",
+    "total_amount": 1287.96,
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-07-12T16:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000059",
+    "customer_id": "CUST_000031",
+    "order_date": "2026-10-18T23:00:00+00:00",
+    "status": "SHIPPED",
+    "total_amount": 1135.14,
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-10-18T23:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000060",
+    "customer_id": "CUST_000035",
+    "order_date": "2026-07-15T11:00:00+00:00",
+    "status": "CONFIRMED",
+    "total_amount": 742.58,
+    "payment_method": "WIRE",
+    "created_at": "2026-07-15T11:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000061",
+    "customer_id": "CUST_000028",
+    "order_date": "2026-08-18T10:00:00+00:00",
+    "status": "DELIVERED",
+    "total_amount": 517.47,
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-08-18T10:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000062",
+    "customer_id": "CUST_000047",
+    "order_date": "2026-09-27T20:00:00+00:00",
+    "status": "CONFIRMED",
+    "total_amount": 1471.47,
+    "payment_method": "CREDIT_CARD",
+    "created_at": "2026-09-27T20:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000063",
+    "customer_id": "CUST_000026",
+    "order_date": "2026-08-04T16:00:00+00:00",
+    "status": "PENDING",
+    "total_amount": 144.24,
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-08-04T16:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000064",
+    "customer_id": "CUST_000009",
+    "order_date": "2026-08-21T05:00:00+00:00",
+    "status": "PENDING",
+    "total_amount": 405.03,
+    "payment_method": "WIRE",
+    "created_at": "2026-08-21T05:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000065",
+    "customer_id": "CUST_000014",
+    "order_date": "2026-08-22T00:00:00+00:00",
+    "status": "SHIPPED",
+    "total_amount": 1146.62,
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-08-22T00:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000066",
+    "customer_id": "CUST_000018",
+    "order_date": "2026-07-14T21:00:00+00:00",
+    "status": "SHIPPED",
+    "total_amount": 1255.67,
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-07-14T21:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000067",
+    "customer_id": "CUST_000002",
+    "order_date": "2026-07-15T17:00:00+00:00",
+    "status": "PENDING",
+    "total_amount": 1499.86,
+    "payment_method": "WIRE",
+    "created_at": "2026-07-15T17:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000068",
+    "customer_id": "CUST_000015",
+    "order_date": "2026-07-28T08:00:00+00:00",
+    "status": "PENDING",
+    "total_amount": 1136.27,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-07-28T08:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000069",
+    "customer_id": "CUST_000013",
+    "order_date": "2026-10-16T15:00:00+00:00",
+    "status": "CONFIRMED",
+    "total_amount": 373.05,
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-10-16T15:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000070",
+    "customer_id": "CUST_000043",
+    "order_date": "2026-10-04T16:00:00+00:00",
+    "status": "CONFIRMED",
+    "total_amount": 708.25,
+    "payment_method": "WIRE",
+    "created_at": "2026-10-04T16:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000071",
+    "customer_id": "CUST_000050",
+    "order_date": "2026-09-02T05:00:00+00:00",
+    "status": "PENDING",
+    "total_amount": 1171.13,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-09-02T05:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000072",
+    "customer_id": "CUST_000020",
+    "order_date": "2026-10-05T16:00:00+00:00",
+    "status": "PENDING",
+    "total_amount": 1394.75,
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-10-05T16:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000073",
+    "customer_id": "CUST_000026",
+    "order_date": "2026-07-20T04:00:00+00:00",
+    "status": "PENDING",
+    "total_amount": 896.3,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-07-20T04:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000074",
+    "customer_id": "CUST_000007",
+    "order_date": "2026-07-22T01:00:00+00:00",
+    "status": "PENDING",
+    "total_amount": 1198.42,
+    "payment_method": "CREDIT_CARD",
+    "created_at": "2026-07-22T01:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000075",
+    "customer_id": "CUST_000023",
+    "order_date": "2026-08-11T21:00:00+00:00",
+    "status": "SHIPPED",
+    "total_amount": 122.06,
+    "payment_method": "WIRE",
+    "created_at": "2026-08-11T21:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000076",
+    "customer_id": "CUST_000001",
+    "order_date": "2026-08-26T19:00:00+00:00",
+    "status": "PENDING",
+    "total_amount": 661.61,
+    "payment_method": "WIRE",
+    "created_at": "2026-08-26T19:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000077",
+    "customer_id": "CUST_000041",
+    "order_date": "2026-08-21T12:00:00+00:00",
+    "status": "CONFIRMED",
+    "total_amount": 664.52,
+    "payment_method": "WIRE",
+    "created_at": "2026-08-21T12:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000078",
+    "customer_id": "CUST_000040",
+    "order_date": "2026-08-11T19:00:00+00:00",
+    "status": "DELIVERED",
+    "total_amount": 664.65,
+    "payment_method": "WIRE",
+    "created_at": "2026-08-11T19:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000079",
+    "customer_id": "CUST_000021",
+    "order_date": "2026-09-18T08:00:00+00:00",
+    "status": "SHIPPED",
+    "total_amount": 1324.81,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-09-18T08:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000080",
+    "customer_id": "CUST_000049",
+    "order_date": "2026-08-20T16:00:00+00:00",
+    "status": "DELIVERED",
+    "total_amount": 517.87,
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-08-20T16:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000081",
+    "customer_id": "CUST_000021",
+    "order_date": "2026-09-25T19:00:00+00:00",
+    "status": "CONFIRMED",
+    "total_amount": 545.14,
+    "payment_method": "WIRE",
+    "created_at": "2026-09-25T19:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000082",
+    "customer_id": "CUST_000022",
+    "order_date": "2026-09-13T15:00:00+00:00",
+    "status": "SHIPPED",
+    "total_amount": 842.57,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-09-13T15:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000083",
+    "customer_id": "CUST_000006",
+    "order_date": "2026-09-18T11:00:00+00:00",
+    "status": "DELIVERED",
+    "total_amount": 743.1,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-09-18T11:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000084",
+    "customer_id": "CUST_000045",
+    "order_date": "2026-08-19T14:00:00+00:00",
+    "status": "DELIVERED",
+    "total_amount": 683.3,
+    "payment_method": "CREDIT_CARD",
+    "created_at": "2026-08-19T14:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000085",
+    "customer_id": "CUST_000006",
+    "order_date": "2026-09-12T03:00:00+00:00",
+    "status": "DELIVERED",
+    "total_amount": 1043.84,
+    "payment_method": "WIRE",
+    "created_at": "2026-09-12T03:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000086",
+    "customer_id": "CUST_000043",
+    "order_date": "2026-08-05T23:00:00+00:00",
+    "status": "DELIVERED",
+    "total_amount": 839.14,
+    "payment_method": "WIRE",
+    "created_at": "2026-08-05T23:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000087",
+    "customer_id": "CUST_000028",
+    "order_date": "2026-07-15T17:00:00+00:00",
+    "status": "SHIPPED",
+    "total_amount": 540.68,
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-07-15T17:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000088",
+    "customer_id": "CUST_000018",
+    "order_date": "2026-09-10T02:00:00+00:00",
+    "status": "CONFIRMED",
+    "total_amount": 198.57,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-09-10T02:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000089",
+    "customer_id": "CUST_000021",
+    "order_date": "2026-10-03T11:00:00+00:00",
+    "status": "CONFIRMED",
+    "total_amount": 303.48,
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-10-03T11:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000090",
+    "customer_id": "CUST_000018",
+    "order_date": "2026-07-18T16:00:00+00:00",
+    "status": "SHIPPED",
+    "total_amount": 1471.16,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-07-18T16:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000091",
+    "customer_id": "CUST_000019",
+    "order_date": "2026-09-19T23:00:00+00:00",
+    "status": "CONFIRMED",
+    "total_amount": 467.36,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-09-19T23:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000092",
+    "customer_id": "CUST_000018",
+    "order_date": "2026-10-14T09:00:00+00:00",
+    "status": "SHIPPED",
+    "total_amount": 1052.18,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-10-14T09:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000093",
+    "customer_id": "CUST_000041",
+    "order_date": "2026-07-14T19:00:00+00:00",
+    "status": "PENDING",
+    "total_amount": 1311.63,
+    "payment_method": "WIRE",
+    "created_at": "2026-07-14T19:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000094",
+    "customer_id": "CUST_000031",
+    "order_date": "2026-08-18T20:00:00+00:00",
+    "status": "SHIPPED",
+    "total_amount": 292.86,
+    "payment_method": "CREDIT_CARD",
+    "created_at": "2026-08-18T20:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000095",
+    "customer_id": "CUST_000017",
+    "order_date": "2026-08-19T07:00:00+00:00",
+    "status": "PENDING",
+    "total_amount": 613.05,
+    "payment_method": "CREDIT_CARD",
+    "created_at": "2026-08-19T07:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000096",
+    "customer_id": "CUST_000037",
+    "order_date": "2026-07-30T13:00:00+00:00",
+    "status": "PENDING",
+    "total_amount": 244.56,
+    "payment_method": "WIRE",
+    "created_at": "2026-07-30T13:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000097",
+    "customer_id": "CUST_000006",
+    "order_date": "2026-09-18T07:00:00+00:00",
+    "status": "DELIVERED",
+    "total_amount": 917.35,
+    "payment_method": "PAYPAL",
+    "created_at": "2026-09-18T07:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000098",
+    "customer_id": "CUST_000050",
+    "order_date": "2026-08-13T22:00:00+00:00",
+    "status": "DELIVERED",
+    "total_amount": 1364.59,
+    "payment_method": "WIRE",
+    "created_at": "2026-08-13T22:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000099",
+    "customer_id": "CUST_000038",
+    "order_date": "2026-08-26T01:00:00+00:00",
+    "status": "PENDING",
+    "total_amount": 922.25,
+    "payment_method": "CREDIT_CARD",
+    "created_at": "2026-08-26T01:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_0000100",
+    "customer_id": "CUST_000049",
+    "order_date": "2026-09-22T14:00:00+00:00",
+    "status": "CONFIRMED",
+    "total_amount": 411.68,
+    "payment_method": "CREDIT_CARD",
+    "created_at": "2026-09-22T14:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_ERR_ORPHAN",
+    "customer_id": "CUST_NON_EXISTENT_9999",
+    "order_date": "2026-10-20T10:00:00+00:00",
+    "status": "CONFIRMED",
+    "total_amount": 199.99,
+    "payment_method": "CREDIT_CARD",
+    "created_at": "2026-10-20T10:00:00+00:00"
+  },
+  {
+    "order_id": "ORD_ERR_FUTURE",
+    "customer_id": "CUST_000001",
+    "order_date": "2027-02-26T18:23:17.236745+00:00",
+    "status": "PENDING",
+    "total_amount": 50.0,
+    "payment_method": "PAYPAL",
+    "created_at": "2027-02-26T18:23:17.236745+00:00"
+  }
+]

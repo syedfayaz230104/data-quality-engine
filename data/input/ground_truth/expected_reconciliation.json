@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "scale": "small",
+    "seed": 42,
+    "generated_at": "2026-10-29T18:23:17.235650+00:00"
+  },
+  "expected_quarantines": [
+    {
+      "dataset": "customers",
+      "key": "CUST_ERR_0001",
+      "reason": "Missing or null required field: 'email'"
+    },
+    {
+      "dataset": "customers",
+      "key": "CUST_000001",
+      "reason": "Duplicate key detected"
+    },
+    {
+      "dataset": "customers",
+      "key": "CUST_ERR_STATUS",
+      "reason": "Invalid lifecycle status"
+    },
+    {
+      "dataset": "products",
+      "key": "PROD_ERR_NEGPRICE",
+      "reason": "unit_price below min_value"
+    },
+    {
+      "dataset": "products",
+      "key": "PROD_00001",
+      "reason": "Duplicate product ID"
+    },
+    {
+      "dataset": "orders",
+      "key": "ORD_ERR_ORPHAN",
+      "reason": "Foreign key customer_id does not exist"
+    },
+    {
+      "dataset": "orders",
+      "key": "ORD_ERR_FUTURE",
+      "reason": "Order date in future"
+    },
+    {
+      "dataset": "order_items",
+      "key": "ITEM_ERR_BAD_MATH",
+      "reason": "Math inconsistency line_total != qty * unit_price"
+    },
+    {
+      "dataset": "order_items",
+      "key": "ITEM_ERR_BAD_PROD_FK",
+      "reason": "Foreign key product_id does not exist"
+    },
+    {
+      "dataset": "order_items",
+      "key": "ITEM_ERR_ZERO_QTY",
+      "reason": "Quantity below minimum allowed"
+    }
+  ],
+  "expected_clean_counts": {
+    "customers": 50,
+    "products": 40,
+    "orders": 100,
+    "order_items": 200
+  }
+}

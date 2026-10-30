@@ -1,0 +1,24 @@
+pipeline:
+  name: "ecommerce_sales_ingestion"
+  version: "1.0.0"
+  target_db_path: "data/target/warehouse.duckdb"
+  quarantine_path: "data/quarantine"
+  log_level: "INFO"
+  
+  # Idempotency and Deduplication Strategy
+  load_strategy: "UPSERT" # Options: UPSERT, APPEND, OVERWRITE_PARTITION
+  deduplicate_on:
+    customers: ["customer_id"]
+    products: ["product_id"]
+    orders: ["order_id"]
+    order_items: ["item_id"]
+
+  # Quarantine Settings
+  quarantine:
+    quarantine_table: "quarantined_records"
+    persist_to_file: true
+    format: "jsonl"
+
+  # Performance and Batch Settings
+  batch_size: 50000
+  enable_vectorized_processing: true

@@ -1,0 +1,14 @@
+{
+  "metadata": {
+    "scale": "large",
+    "seed": 42,
+    "generated_at": "2026-10-29T18:31:20.301851+00:00"
+  },
+  "expected_quarantines": [],
+  "expected_clean_counts": {
+    "customers": 15000,
+    "products": 5000,
+    "orders": 40000,
+    "order_items": 100000
+  }
+}

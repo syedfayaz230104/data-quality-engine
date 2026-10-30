@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "data-quality-engine"
+version = "1.0.0"
+description = "Configurable Data Quality & Ingestion Engine for Completeness, Uniqueness, Referential Integrity, Range, Freshness, and Custom Business Rules"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "duckdb>=2.0.0",
+    "pyyaml>=6.0.0",
+    "pydantic>=2.0.0",
+    "pytest>=8.0.0"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"

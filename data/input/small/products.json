@@ -1,0 +1,380 @@
+[
+  {
+    "product_id": "PROD_00001",
+    "name": "Product Item 1",
+    "category": "ELECTRONICS",
+    "unit_price": 379.11,
+    "stock_quantity": 891,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00002",
+    "name": "Product Item 2",
+    "category": "ELECTRONICS",
+    "unit_price": 80.66,
+    "stock_quantity": 173,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00003",
+    "name": "Product Item 3",
+    "category": "BOOKS",
+    "unit_price": 300.22,
+    "stock_quantity": 404,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00004",
+    "name": "Product Item 4",
+    "category": "BOOKS",
+    "unit_price": 299.96,
+    "stock_quantity": 489,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00005",
+    "name": "Product Item 5",
+    "category": "SPORTS",
+    "unit_price": 129.45,
+    "stock_quantity": 576,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00006",
+    "name": "Product Item 6",
+    "category": "ELECTRONICS",
+    "unit_price": 341.74,
+    "stock_quantity": 127,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00007",
+    "name": "Product Item 7",
+    "category": "SPORTS",
+    "unit_price": 376.68,
+    "stock_quantity": 797,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00008",
+    "name": "Product Item 8",
+    "category": "HOME",
+    "unit_price": 60.22,
+    "stock_quantity": 455,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00009",
+    "name": "Product Item 9",
+    "category": "APPAREL",
+    "unit_price": 229.59,
+    "stock_quantity": 986,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00010",
+    "name": "Product Item 10",
+    "category": "HOME",
+    "unit_price": 486.08,
+    "stock_quantity": 790,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00011",
+    "name": "Product Item 11",
+    "category": "APPAREL",
+    "unit_price": 256.3,
+    "stock_quantity": 118,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00012",
+    "name": "Product Item 12",
+    "category": "HOME",
+    "unit_price": 421.63,
+    "stock_quantity": 529,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00013",
+    "name": "Product Item 13",
+    "category": "SPORTS",
+    "unit_price": 103.46,
+    "stock_quantity": 392,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00014",
+    "name": "Product Item 14",
+    "category": "APPAREL",
+    "unit_price": 271.99,
+    "stock_quantity": 807,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00015",
+    "name": "Product Item 15",
+    "category": "SPORTS",
+    "unit_price": 459.65,
+    "stock_quantity": 623,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00016",
+    "name": "Product Item 16",
+    "category": "HOME",
+    "unit_price": 246.86,
+    "stock_quantity": 124,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00017",
+    "name": "Product Item 17",
+    "category": "HOME",
+    "unit_price": 439.97,
+    "stock_quantity": 861,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00018",
+    "name": "Product Item 18",
+    "category": "HOME",
+    "unit_price": 123.53,
+    "stock_quantity": 256,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00019",
+    "name": "Product Item 19",
+    "category": "SPORTS",
+    "unit_price": 473.74,
+    "stock_quantity": 97,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00020",
+    "name": "Product Item 20",
+    "category": "BOOKS",
+    "unit_price": 408.93,
+    "stock_quantity": 788,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00021",
+    "name": "Product Item 21",
+    "category": "SPORTS",
+    "unit_price": 384.09,
+    "stock_quantity": 141,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00022",
+    "name": "Product Item 22",
+    "category": "BOOKS",
+    "unit_price": 473.69,
+    "stock_quantity": 179,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00023",
+    "name": "Product Item 23",
+    "category": "HOME",
+    "unit_price": 266.2,
+    "stock_quantity": 631,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00024",
+    "name": "Product Item 24",
+    "category": "BOOKS",
+    "unit_price": 482.36,
+    "stock_quantity": 961,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00025",
+    "name": "Product Item 25",
+    "category": "SPORTS",
+    "unit_price": 378.86,
+    "stock_quantity": 716,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00026",
+    "name": "Product Item 26",
+    "category": "APPAREL",
+    "unit_price": 357.91,
+    "stock_quantity": 418,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00027",
+    "name": "Product Item 27",
+    "category": "HOME",
+    "unit_price": 221.86,
+    "stock_quantity": 539,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00028",
+    "name": "Product Item 28",
+    "category": "BOOKS",
+    "unit_price": 64.9,
+    "stock_quantity": 240,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00029",
+    "name": "Product Item 29",
+    "category": "ELECTRONICS",
+    "unit_price": 172.35,
+    "stock_quantity": 612,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00030",
+    "name": "Product Item 30",
+    "category": "SPORTS",
+    "unit_price": 118.91,
+    "stock_quantity": 235,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00031",
+    "name": "Product Item 31",
+    "category": "ELECTRONICS",
+    "unit_price": 40.14,
+    "stock_quantity": 656,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00032",
+    "name": "Product Item 32",
+    "category": "ELECTRONICS",
+    "unit_price": 118.33,
+    "stock_quantity": 937,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00033",
+    "name": "Product Item 33",
+    "category": "ELECTRONICS",
+    "unit_price": 430.52,
+    "stock_quantity": 82,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00034",
+    "name": "Product Item 34",
+    "category": "SPORTS",
+    "unit_price": 122.81,
+    "stock_quantity": 695,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00035",
+    "name": "Product Item 35",
+    "category": "BOOKS",
+    "unit_price": 111.05,
+    "stock_quantity": 145,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00036",
+    "name": "Product Item 36",
+    "category": "SPORTS",
+    "unit_price": 290.22,
+    "stock_quantity": 258,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00037",
+    "name": "Product Item 37",
+    "category": "BOOKS",
+    "unit_price": 404.71,
+    "stock_quantity": 204,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00038",
+    "name": "Product Item 38",
+    "category": "ELECTRONICS",
+    "unit_price": 52.98,
+    "stock_quantity": 451,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00039",
+    "name": "Product Item 39",
+    "category": "HOME",
+    "unit_price": 214.67,
+    "stock_quantity": 488,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00040",
+    "name": "Product Item 40",
+    "category": "ELECTRONICS",
+    "unit_price": 338.32,
+    "stock_quantity": 671,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_ERR_NEGPRICE",
+    "name": "Invalid Negative Price",
+    "category": "ELECTRONICS",
+    "unit_price": -25.5,
+    "stock_quantity": 50,
+    "is_active": true,
+    "created_at": "2026-10-20T10:00:00+00:00"
+  },
+  {
+    "product_id": "PROD_00001",
+    "name": "Duplicate Product Name",
+    "category": "ELECTRONICS",
+    "unit_price": 379.11,
+    "stock_quantity": 891,
+    "is_active": true,
+    "created_at": "2026-04-03T10:00:00+00:00"
+  }
+]

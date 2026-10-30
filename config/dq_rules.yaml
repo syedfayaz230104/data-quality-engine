@@ -1,0 +1,190 @@
+rules_version: "1.0.0"
+
+rules:
+  # -------------------------------------------------------------
+  # 1. CUSTOMERS DATASET RULES
+  # -------------------------------------------------------------
+  - rule_id: "CUST_COMPL_01"
+    dataset: "customers"
+    rule_type: "completeness"
+    rule_name: "customer_required_fields_not_null"
+    columns: ["customer_id", "email", "country_code", "created_at"]
+    severity: "ERROR"
+    description: "Essential customer identity fields must not be null or blank"
+
+  - rule_id: "CUST_UNIQ_01"
+    dataset: "customers"
+    rule_type: "uniqueness"
+    rule_name: "customer_id_is_unique"
+    columns: ["customer_id"]
+    severity: "ERROR"
+    description: "Customer ID must be unique across the dataset"
+
+  - rule_id: "CUST_RANGE_01"
+    dataset: "customers"
+    rule_type: "range"
+    rule_name: "customer_country_code_format"
+    column: "country_code"
+    min_length: 2
+    max_length: 3
+    severity: "WARNING"
+    description: "Country code should conform to standard 2-3 char ISO abbreviation"
+
+  - rule_id: "CUST_BUS_01"
+    dataset: "customers"
+    rule_type: "custom"
+    rule_name: "customer_valid_status"
+    expression: "status IN ('ACTIVE', 'SUSPENDED', 'INACTIVE')"
+    severity: "ERROR"
+    description: "Customer status must match standard lifecycle states"
+
+  # -------------------------------------------------------------
+  # 2. PRODUCTS DATASET RULES
+  # -------------------------------------------------------------
+  - rule_id: "PROD_COMPL_01"
+    dataset: "products"
+    rule_type: "completeness"
+    rule_name: "product_required_fields_not_null"
+    columns: ["product_id", "name", "category", "unit_price"]
+    severity: "ERROR"
+    description: "Product ID, name, category, and price cannot be null"
+
+  - rule_id: "PROD_UNIQ_01"
+    dataset: "products"
+    rule_type: "uniqueness"
+    rule_name: "product_id_is_unique"
+    columns: ["product_id"]
+    severity: "ERROR"
+    description: "Product ID must be strictly unique"
+
+  - rule_id: "PROD_RANGE_01"
+    dataset: "products"
+    rule_type: "range"
+    rule_name: "product_unit_price_positive"
+    column: "unit_price"
+    min_value: 0.01
+    max_value: 100000.00
+    severity: "ERROR"
+    description: "Product unit price must be greater than zero and within reasonable bounds"
+
+  - rule_id: "PROD_RANGE_02"
+    dataset: "products"
+    rule_type: "range"
+    rule_name: "product_stock_non_negative"
+    column: "stock_quantity"
+    min_value: 0
+    severity: "WARNING"
+    description: "Stock quantity cannot be negative"
+
+  # -------------------------------------------------------------
+  # 3. ORDERS DATASET RULES
+  # -------------------------------------------------------------
+  - rule_id: "ORD_COMPL_01"
+    dataset: "orders"
+    rule_type: "completeness"
+    rule_name: "order_required_fields_not_null"
+    columns: ["order_id", "customer_id", "order_date", "status", "total_amount"]
+    severity: "ERROR"
+    description: "Core order header attributes must not be null"
+
+  - rule_id: "ORD_UNIQ_01"
+    dataset: "orders"
+    rule_type: "uniqueness"
+    rule_name: "order_id_is_unique"
+    columns: ["order_id"]
+    severity: "ERROR"
+    description: "Order ID primary key must be unique"
+
+  - rule_id: "ORD_REF_01"
+    dataset: "orders"
+    rule_type: "referential_integrity"
+    rule_name: "order_customer_fk_exists"
+    foreign_key: "customer_id"
+    parent_dataset: "customers"
+    parent_key: "customer_id"
+    severity: "ERROR"
+    description: "Every order must reference a valid, existing customer_id"
+
+  - rule_id: "ORD_RANGE_01"
+    dataset: "orders"
+    rule_type: "range"
+    rule_name: "order_total_amount_non_negative"
+    column: "total_amount"
+    min_value: 0.00
+    severity: "ERROR"
+    description: "Order total amount must be zero or positive"
+
+  - rule_id: "ORD_FRESH_01"
+    dataset: "orders"
+    rule_type: "freshness"
+    rule_name: "order_date_timeliness"
+    column: "order_date"
+    max_days_old: 730 # Not older than 2 years
+    allow_future_seconds: 0 # No future-dated orders
+    severity: "ERROR"
+    description: "Order date must not be in the future and within freshness retention window"
+
+  - rule_id: "ORD_BUS_01"
+    dataset: "orders"
+    rule_type: "custom"
+    rule_name: "order_valid_lifecycle_status"
+    expression: "status IN ('PENDING', 'CONFIRMED', 'SHIPPED', 'DELIVERED', 'CANCELLED')"
+    severity: "ERROR"
+    description: "Order status must be an authorized state transition"
+
+  # -------------------------------------------------------------
+  # 4. ORDER ITEMS DATASET RULES
+  # -------------------------------------------------------------
+  - rule_id: "ITEM_COMPL_01"
+    dataset: "order_items"
+    rule_type: "completeness"
+    rule_name: "item_required_fields_not_null"
+    columns: ["item_id", "order_id", "product_id", "quantity", "unit_price", "line_total"]
+    severity: "ERROR"
+    description: "Item identifier, order, product, quantity, and amounts must be non-null"
+
+  - rule_id: "ITEM_UNIQ_01"
+    dataset: "order_items"
+    rule_type: "uniqueness"
+    rule_name: "item_id_is_unique"
+    columns: ["item_id"]
+    severity: "ERROR"
+    description: "Line item ID must be strictly unique"
+
+  - rule_id: "ITEM_REF_01"
+    dataset: "order_items"
+    rule_type: "referential_integrity"
+    rule_name: "item_order_fk_exists"
+    foreign_key: "order_id"
+    parent_dataset: "orders"
+    parent_key: "order_id"
+    severity: "ERROR"
+    description: "Every order item must link to an existing order"
+
+  - rule_id: "ITEM_REF_02"
+    dataset: "order_items"
+    rule_type: "referential_integrity"
+    rule_name: "item_product_fk_exists"
+    foreign_key: "product_id"
+    parent_dataset: "products"
+    parent_key: "product_id"
+    severity: "ERROR"
+    description: "Every order item must link to a catalog product"
+
+  - rule_id: "ITEM_RANGE_01"
+    dataset: "order_items"
+    rule_type: "range"
+    rule_name: "item_quantity_range"
+    column: "quantity"
+    min_value: 1
+    max_value: 5000
+    severity: "ERROR"
+    description: "Order item quantity must be at least 1 and capped at 5000 units"
+
+  - rule_id: "ITEM_BUS_01"
+    dataset: "order_items"
+    rule_type: "custom"
+    rule_name: "item_line_total_math_consistency"
+    expression: "abs(line_total - (quantity * unit_price)) < 0.02"
+    severity: "ERROR"
+    description: "Line total must match quantity multiplied by unit_price within 2 cents rounding"
